@@ -1,0 +1,119 @@
+/* ____________________________________________________RESPONSIVE_________________________________________________ */
+  /* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1449px) {
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+}
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/* SM Small Device :320px. */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    /* ________________account info________________ */
+    .help-right {
+        gap: 11px;
+        padding: 9px;
+        width: 238px;
+        margin-right: 19px;
+    }
+    .help-body p {
+        font-size: 17px;
+    }
+    .help-right img {
+        width: 47px;
+    }
+    .btn {
+        width: 164px;
+        height: 43px;
+        font-size: 19px;
+    }
+    .single-account h2 {
+        font-size: 20px;
+    }
+    .single-account .user {
+        width: 120px;
+        height: 120px;
+        line-height: 120px;
+        font-size: 53px;
+    }
+    .single-account p {
+        font-size: 25px;
+    }
+     /* ________________account info________________ */
+     .single-account {
+        display: none;
+    }
+    .align-right {
+        display: none;
+    }
+    hr{
+        display: none;
+    }
+    .help-right {
+        gap: 11px;
+        padding: 9px;
+        width: 238px;
+        margin-right: 19px;
+    }
+    .help-body p {
+        font-size: 17px;
+    }
+    .help-right img {
+        width: 47px;
+    }
+    .infoContainer {
+        display: none;
+    }
+    /* ____________________features______________________ */
+    .features-responsive {
+        text-align: center;
+    }
+    .features-bg img {
+        width: 40%;
+    }
+
+    /* __________________form tool___________________ */
+    .features-bg {
+        text-align: left;
+    }
+    .features-bg h1 {
+        font-size: 16px;
+    }
+    .fromTool-head img {
+        width: 12%;
+    }
+    .tool-container {
+        margin: 0 35px;
+    }
+    .features-bg p {
+        font-size: 12px;
+        width: 255px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+    .features-bg h6 {
+        width: 279px;
+        padding: 5px 12px;
+        font-size: 12px;
+    }
+    .list {
+        height: 25px;
+        width: 25px;
+        border-radius: 16px;
+        margin-right: 12px;
+        line-height: 20px;
+        font-size: 13px;
+    }
+    .cross {
+        margin-left: 2px;
+    }
+}
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px){
+
+}
