@@ -555,3 +555,16 @@ background: #0071B8;
 	border-radius: 16px;
 	margin-right: 22px;
 }
+
+/* -----------slider--------------- */
+.slider-body {
+  background-image: linear-gradient(to right, #f09927, #ffc133);
+  display: flex;
+  border-radius: 10px;
+  width: 400px;
+  height: 200px;
+}
+
+body {
+  overflow-x:hidden;
+}

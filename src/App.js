@@ -14,6 +14,8 @@ import Login from './Components/Home/Login';
 import CallPopUp from './Components/Home/CallPopUp';
 import Features from './Components/Home/Features';
 import FormTool from './Components/Home/FormTool';
+import BlogPost from './Components/Home/BlogPost';
+import ResetPassword from './Components/Home/ResetPassword';
 
 const App = () => {
   return (
@@ -50,13 +52,15 @@ const App = () => {
       <div>
 
       </div>
-      <AccountInfo></AccountInfo>
+      {/* <AccountInfo></AccountInfo> */}
       {/* <UserProfile></UserProfile> */}
       {/* <SignUp></SignUp>      */}
       {/* <Login></Login> */}
       {/* <CallPopUp></CallPopUp> */}
       {/* <Features></Features> */}
       {/* <FormTool></FormTool> */}
+      {/* <BlogPost></BlogPost> */}
+      <ResetPassword></ResetPassword>
     </div>
   );
 };

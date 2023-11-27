@@ -1,11 +1,10 @@
 import React from 'react';
 
-const BlogPost = () => {
-    return (
-        <div>
 
-        </div>
-    );
+const BlogPost = () => {
+   <div>
+       
+   </div>
 };
 
 export default BlogPost;
